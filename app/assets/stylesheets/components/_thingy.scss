@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(0,0,0,0.1) !important;
+}
+.thingy {
+  &__image {
+    max-width: 200px;
+    margin: 20px 0;
+  }
+  &__title {
+    margin: 20px 0;
+    font-size: 4.8rem;
+  }
+  &__title--font-1 {
+    font-family: "MovingSkate";
+  }
+  &__title--font-2 {
+    font-family: "Coiny";
+  }
+}
